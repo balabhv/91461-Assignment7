@@ -1,14 +1,14 @@
 
 body {
     margin: 0px 0px 0px 0px;
-    background-image: url('http://img4.wikia.nocookie.net/__cb30/mahouka-koukou-no-rettousei/images/5/50/Wiki-background');
+    background-image: url('../img/background.png');
 }
 
 #logo {
     float: left;
     margin-left: -30px;
     padding-right: 10px;
-    background-image: url('http://img4.wikia.nocookie.net/__cb30/mahouka-koukou-no-rettousei/images/5/50/Wiki-background');
+    background-image: url('../img/background.png');
 }
 
 #pagetitle {
@@ -31,7 +31,7 @@ h1 {
 }
 
 .wrapper {
-    background-image: url('http://img4.wikia.nocookie.net/__cb30/mahouka-koukou-no-rettousei/images/5/50/Wiki-background');
+    background-image: url('../img/background.png');
     margin-left: 30px;
 }
 
@@ -64,7 +64,7 @@ h1 {
 }
 
 #content {
-    background-image: url('http://img4.wikia.nocookie.net/__cb30/mahouka-koukou-no-rettousei/images/5/50/Wiki-background');
+    background-image: url('../img/background.png');
     color: #D5D4D4;
     clear: left;
     border-top: 5px solid #2CA79A;
