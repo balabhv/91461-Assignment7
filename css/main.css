@@ -1,9 +1,17 @@
+/*  Name: Virinchi Balabhadrapatruni                                             
+  Email: Virinchi_Balabhadrapatruni@student.uml.edu                            
+  UMass Lowell Computer Science, 91.461 GUI Programming I                      
+  Date: 11/1/2014                                                               
+  Description: CSS File created for Assignment #7.   
+*/
 
+/* Sets the margins to 0 and sets the background image. */
 body {
     margin: 0px 0px 0px 0px;
     background-image: url('../img/background.png');
 }
 
+/* Left-floats the logo and positions it. */
 #logo {
     float: left;
     margin-left: -30px;
@@ -11,6 +19,7 @@ body {
     background-image: url('../img/background.png');
 }
 
+/* Formats the page title. */
 #pagetitle {
     clear: left;
     color: #D5D4D4;
@@ -22,19 +31,24 @@ body {
     margin-bottom: -20px;
 }
 
-h1 {
-    clear: left;
-    color: #D5D4D4;
-    font-family: Lucida Sans Italic,Georgia;
-    font-size: 28px;
-    background-image: inherit;
+/* Adds padding to all titles, paragraphs, tables, and table rows. */
+h1, h2, h3, h4, p, table, tr {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
+/* Makes all titles bold. */
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+/* Formats the content wrapper. */
 .wrapper {
     background-image: url('../img/background.png');
     margin-left: 30px;
 }
 
+/* Makes the nav bar text white. */
 #navBar {  
     color: white;
     height: 25px;
@@ -43,11 +57,13 @@ h1 {
 
 }
 
+/* Colors the navbar. */
 #navBar nav {
     background-color: #2CA79A;
 
 }
 
+/* Formats the links on the navbar. */
 #navBar a {
     color: white;
     text-decoration: none;
@@ -59,10 +75,12 @@ h1 {
     font-size: 20px;
 }
 
+/* Underlines the links of the navbar on hover. */
 #navBar a:hover {
     text-decoration: underline;
 }
 
+/* Formats the content div. */
 #content {
     background-image: url('../img/background.png');
     color: #D5D4D4;
@@ -72,18 +90,19 @@ h1 {
     line-height: 1.25;
 }
 
+/* Formats the div containing the fact tabe */
 #content #table {
     float: right;
     background-color: #262626;
     border: 1px solid #525252;
     margin-left: 30px;
     line-height: 1;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 2px;
 }
 
-#content #table table {
-    border: 1px solid #525252;
-}
-
+/* Formats the tabl headers. */
 #content #table th {
     background-color: #5A978A;
     color: white;
@@ -91,41 +110,88 @@ h1 {
     margin-right: auto;
 }
 
+/* Centers the animated GIF showing Gram Demolition. */
 #nonsystematic img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Pushes the content of the info blocks 10 px to the right. */
 #content #table tr td p, #content #table tr td span, #content #table tr td li {
     margin-left: 10px;
 }
 
-#content #table .pinfo {
-    word-wrap: normal;
+/* Formats the image of Tatsuya to make it smaller (the original image is much bigger.) */
+#tableimg {
+    max-width: 300px;
+    padding-top: 5px;
 }
 
+/* Formats all unordered lists on the page. */
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 40px;
+    
+}
+
+/* Pads all list items with 10 pixels at the top */
+ul li {
+    
+    padding-top: 10px;
+}
+
+/* Moves the epithets header text in line with the rest of the text. */
+#epithet {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+/* Pads the bottom of the 2nd section of the homepage. */
 #background {
     padding-bottom: 20px;
 }
 
+/* Adds padding to the right of both sections of the abilities page. */
 #wrapper #physical, #magical {
     padding-right: 30px;
 }
 
+/* Adds padding between list items */
 #content div ul li {
     padding-bottom: 10px;
 }
 
+/* Adds padding below the last section of the equiment page. */
 #mobilesuit {
     padding-bottom: 30px;
 }
 
+/* Formats the source link. */
 .wrapper ul li a {
     color: #6EC0AE;
     text-decoration: none;
 }
 
+/* Underlines the source link on hover. */
 .wrapper ul li a:hover {
     text-decoration: underline;
 }
+
+/* Separates the animated GIFs of Tatsuya Stu's ninjutsu with space. */
+#ninjutsugif tr td{
+    padding-right: 10px;
+    
+}
+
+/* Limits the sizes of the images of Tatsuya's Third Eye and Mobile Suit. (the original images were much bigger.)*/
+#thirdeye img, #mobilesuit img {
+    max-width: 500px;
+}
+
+/* Standardizes the font size of titles (cross-browser fix) */
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
