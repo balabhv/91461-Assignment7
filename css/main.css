@@ -11,6 +11,10 @@ body {
     background-image: url('../img/background.png');
 }
 
+.loader {
+    visibility: hidden;
+}
+
 /* Left-floats the logo and positions it. */
 #logo {
     float: left;
@@ -49,7 +53,7 @@ h1, h2, h3, h4 {
 }
 
 /* Makes the nav bar text white. */
-#navBar {  
+#navbar {  
     color: white;
     height: 25px;
     line-height: 28px;
@@ -58,13 +62,13 @@ h1, h2, h3, h4 {
 }
 
 /* Colors the navbar. */
-#navBar nav {
+#navbar nav {
     background-color: #2CA79A;
 
 }
 
 /* Formats the links on the navbar. */
-#navBar a {
+#navbar a {
     color: white;
     text-decoration: none;
     height: 25px;
@@ -76,7 +80,7 @@ h1, h2, h3, h4 {
 }
 
 /* Underlines the links of the navbar on hover. */
-#navBar a:hover {
+#navbar a:hover {
     text-decoration: underline;
 }
 

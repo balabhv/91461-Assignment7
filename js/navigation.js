@@ -53,7 +53,7 @@
 
     // Isolate the fragment identifier using substr.
     // This gets rid of the "#" character.
-    var fragmentId = location.hash.substr(1);
+    fragmentId = location.hash.substr(1);
 
     // Set the "content" div innerHTML based on the fragment identifier.
     getContent(fragmentId, function (content) {
